@@ -7,6 +7,7 @@ This file documents the methodology and the source used for creating the 2019Dra
 ## College+Rookie Data Cleaning
 This file documents the methodology and the source used for creating the CollegeRookieStatLog.csv and the CollegeRookieStatLog2.csv
 ## Full College Clustering
+Similar to the 2019 College Clustering, this file attempts to look at the college stats of all incoming rookies in the last 20 years. A correlation matrix was constructed to analyze basic feature similarities, and clustering algorithms were implemented to assess player similarities. Within the main objective of this project, Rookie Stats predictions, one main point of interest lied on what stats Zion Williamson would put up, given all the media commotion around him at the time of this project. One method of approaching this problem using clusters was to simply take the average of all the stats of the players in the same cluster as him. With that methodology, Zion Williamson is expected to put up 14.16 Points, 8.54 Rebounds, 3.38 Assists, 0.96 Steals, and 0.8 Blocks in his Rookie season.
 ## Rookie Predictions
 
 
