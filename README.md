@@ -5,10 +5,6 @@
 This project attempts to leverage Machine Learning in python to create effective predictions for the next batch of NBA Rookies.
 ## 2019 College Clustering
 The first file posted on this project gives a very top down view of the college stats of the players entering this years draft from college. Player data is visualized with a correlation matrix and cluster analysis to better understand the statistical distribution of players in this draft, and to look for certain similarities. The correlation matrix shows how strongly similar two varibles are just within the world of college stats. From there, the variables were decomposed, and three different methods of clusterings were employed. These three clustering methods were K-Means,Agglomerative, and Affinity Propagation, and they all all helped with visualizing similarities and overarching patterns.
-## 	2019 NBA Prospect Scraper
-This file documents the methodology and the source used for creating the 2019DraftClass.csv
-## College+Rookie Data Cleaning
-This file documents the methodology and the source used for creating the CollegeRookieStatLog.csv and the CollegeRookieStatLog2.csv
 ## College and Rookie Trends
 This file examines how the game of basketball has changed from various statistical standpoints as presented by the datasets involved. This part of the project is split into two main sections: the evolution of College Stats and the evolution of NBA Rookie Stats. The College Stats section was examined over the timeframe of 2001-2019, and it was in turn broken down on the basis of points, assists, rebounds, and the ratio of 3 point attempts to 2 point attempts. There were no obvious statistical trends in these categories, but some outliers definitely poked out. Next up, NBA Rookie seasons were assesed on the same categories plus fantasy value on the timeframe of 1981-2019, and this proved to be more interesting. Although no strong trends were found on the categories of points, rebounds, and assists, there were definitely strong upward trends for all the categories related to 3 point shooting. The box plots for the 3 subcategories that fall under 3 point shooting really catpture the essence of the history and popularity of the 3 point shot (especially in the modern era). Finally, the fastasy value of different rookies were examined based on fantasy guidelines on NBA.com.
 ## Full College Clustering
@@ -18,8 +14,11 @@ This file contains the core of the project, and it deals with everything from fe
 
 ## Tools Used
 Data Cleaning: BeautifulSoup, Pandas
+
 ML Analysis: SkLearn, XGBoost, Keras, TPOT
+
 Visualization: Matplotlib, SeaBorn, Plotly.js
+
 
 *For this project, I had to webcrawl and webscrape data because there were no spreadsheets online that was extensive enough and structured to my liking. All the datasets I created for this project are now also available on Kaggle. (https://www.kaggle.com/siddhesvark/compiled-ncaa-basketball-data)
 
