@@ -19,3 +19,5 @@ This file contains the core of the project, and it deals with everything from fe
 *For this project, I had to webcrawl and webscrape data because there were no spreadsheets online that was extensive enough and structured to my liking. All the datasets I created for this project are now also available on Kaggle. (https://www.kaggle.com/siddhesvark/compiled-ncaa-basketball-data)
 
 *For determining NBA Fantasy Value, and evaluating predictive Value in general, I used the new fantasy basketball scoring system provided by NBA.com (http://www.nba.com/article/2017/10/05/nba-unveils-new-official-fantasy-scoring)
+
+*Interactive results were made with Plotly.js, and can be viewed on my Glitch. (https://nba2019rookiestats.glitch.me) 
