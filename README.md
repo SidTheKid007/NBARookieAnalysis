@@ -16,6 +16,11 @@ Similar to the 2019 College Clustering, this file attempts to look at the colleg
 ## Rookie Predictions
 This file contains the core of the project, and it deals with everything from feature engineering and model hyperparameter tuning to the actual predictions for the 2019 Rookie Class. For feature engineering, a lot of experimentation was done with regard to the manipulation of the two categorical variables school and position (from variable dummification to simple integer mapping). A correlation matrix was constructed to see what features had the strongest impact on NBA specific stats, and sklearn's recursive feature elimination algorithm was appplyed to see what the top N most important features were. Those N features were then run through a variety of models that encompassed both tree based models (ex. extratrees, randomforrest, xgboost), and Neural Net models (ex. Feed Forward Neural Nets and LSTMs). The Vanilla feed forward NNs proved to be the most efferctive as they possesed the highest test r^2 and the lowest test mse. Once this model was selected, it was fine tuned and then run on the college data of the incoming rookie class. With this methodology, Zion Williamson is expected to average 14.32 Points, 6.72 Rebounds, 2.48 Assists, 1.46 Steals, and 0.84 Blocks in his Rookie season.
 
+## Tools Used
+Data Cleaning: BeautifulSoup, Pandas
+ML Analysis: SkLearn, XGBoost, Keras, TPOT
+Visualization: Matplotlib, SeaBorn, Plotly.js
+
 *For this project, I had to webcrawl and webscrape data because there were no spreadsheets online that was extensive enough and structured to my liking. All the datasets I created for this project are now also available on Kaggle. (https://www.kaggle.com/siddhesvark/compiled-ncaa-basketball-data)
 
 *For determining NBA Fantasy Value, and evaluating predictive Value in general, I used the new fantasy basketball scoring system provided by NBA.com (http://www.nba.com/article/2017/10/05/nba-unveils-new-official-fantasy-scoring)
